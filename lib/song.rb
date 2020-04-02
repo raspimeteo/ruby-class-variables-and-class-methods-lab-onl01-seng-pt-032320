@@ -9,7 +9,7 @@ class Song
         @name = name
         @artist = artist
         @genre = genre
-        if !@@artists.include? @artists
+        if !@@artists.include?@artists
           @@artists << @artist
         end
         @@genres << @genre
